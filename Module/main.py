@@ -3,8 +3,8 @@ from predictor import DisasterPredictor
 
 if __name__ == "__main__":
     # API keys
-    locationiq_key = "pk.43818d0e6f5f19cbcf89ee20346ec08e"
-    weatherapi_key = "f2af5ed9ad534094ac6124220252905"
+    locationiq_key = "ur api"
+    weatherapi_key = "ur api"
 
     # Model paths
     model_path = "disaster_prediction_model.h5"
