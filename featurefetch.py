@@ -107,11 +107,12 @@ if __name__ == "__main__":
     lat, lon = 10.52, 76.21
     d = get_env_data(
         lat, lon,
-        owm_key="44956704cc6ab804672cdee5f5ba2f5f",
-        weatherapi_key="6ab07be2cb93433bbda63350250607",
-        iqair_key="6c4cb6ea-0a90-4a68-aa1a-decc47312959"
+        owm_key="ur api",
+        weatherapi_key="ur api",
+        iqair_key="ur api"
     )
 
     print("\n📊 Full Environmental + Soil + Air Data:")
     for k, v in d.items():
         print(f"{k}: {v}")
+
